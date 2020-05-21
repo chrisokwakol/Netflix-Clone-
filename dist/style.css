@@ -118,6 +118,7 @@ body {
 .top-middle-section {
     background: #000000;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     border-bottom: 7.5px solid #222;
 }
@@ -146,6 +147,7 @@ body {
 .middle-section {
     background: #000000;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     border-bottom: 7.5px solid #222;
 }
@@ -168,6 +170,7 @@ body {
 .lower-middle-section {
     background: #000000;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     border-bottom: 7.5px solid #222;
     padding-top: 50px;
@@ -270,3 +273,4 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
 }
+
