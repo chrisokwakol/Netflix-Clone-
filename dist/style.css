@@ -1,3 +1,12 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -274,3 +283,66 @@ footer {
     line-height: 30px;
 }
 
+@media screen and (max-width: 1024px) {
+    .hero-section {
+        margin-top: -5px;
+        padding-top: 20px;
+    }
+
+    .top-middle-section content {
+        margin-top: -20px;
+    }
+
+    .middle-section .content-2 {
+        margin-top: -10px;
+        padding: 80px;
+        margin: auto;
+    }
+
+    .middle-section .content-2 h2 {
+        font-size: 47px;
+    }
+
+    .lower-middle-section .content-3 {
+        margin-top: -20px;
+        padding: 50px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .hero-section button {
+        margin-top: 20px;
+    }
+} 
+
+@media (max-width: 425px) and (min-width: 320px) {
+    .hero-section {
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .hero-section h1 {
+        font-size: 30px;
+    }
+    
+    .hero-section p {
+        font-size: 20px;
+    }
+
+    .hero-section button {
+        margin-top: 20px;
+    }
+
+    .hero-section input[type="email"] {
+        width: 90%;
+    }
+
+    .top-middle-section .image {
+        /* width: 100px; */
+    }
+
+    .lower-section input[type="email"] {
+        width: 380px;
+    }
+}
